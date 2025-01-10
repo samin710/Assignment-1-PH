@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-.open-sans-font {
+.work-sans-font {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* .open-sans-font {
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
-}
+} */
 
 * {
     margin: 0;
@@ -35,7 +41,7 @@
 }
 .bn-sub{
     font-size: 24px;
-    opacity: .4;
+    opacity: .5;
     columns: #0E0E0E;
     font-weight: 650;
     height: 45px;
@@ -44,7 +50,7 @@
     font-weight: bold;
     font-size: 56px;
     line-height: 67px;
-    margin-bottom: 24px;
+    margin-bottom: 27px;
 }
 .bn-bt{
     color: white;
@@ -52,7 +58,7 @@
     width: 270px;
     height: 56px;
     text-align: center;
-    justify-content: C;
+
     border-radius: 8px;
 }
 .bn-bt p{
@@ -60,4 +66,68 @@
 }
 .banner-img{
     padding: 80px 59px 80px 64px;
+}
+/* vision section */
+.vision-container{
+    width: 1280px;
+        height: 477px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        border-radius: 24px;
+        border: 1px solid black;
+}
+.vision-title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.vision-des{
+    opacity: .7;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+.card-1{
+    width: 410px;
+    background-color: #c4d5f3;
+    height: 312px;
+    border-radius: 16px;
+}
+.vision-card-img{
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-bottom: 24px;
+}
+.vision-card-text{
+    padding-left: 32px;
+    width: 345px;
+}
+.card-hd{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    opacity: .8;
+}
+.card-des{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    opacity: .7;
+}
+.vision-card-bt{
+    margin-left: 32px;
+    width: 122px;
+    background-color: #5490F5;
+    text-align: center;
+    border-radius: 8px;
+    /* padding: 20px 11px; */
+}
+.vision-bt-text{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 2px;
+    text-align: center;
+
 }
