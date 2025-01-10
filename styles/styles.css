@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.open-sans-font {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* banner section */
+.banner-container {
+    width: 1280px;
+    height: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    border-radius: 24px;
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: center;
+}
+.banner-text{
+    padding-top: 117px;
+    padding-left: 59px;
+    padding-right: 64px;
+    padding-bottom: 117px;
+    width: 622px;
+    height: 326px;
+}
+.bn-sub{
+    font-size: 24px;
+    opacity: .4;
+    columns: #0E0E0E;
+    font-weight: 650;
+    height: 45px;
+}
+.bn-title h2{
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 67px;
+    margin-bottom: 24px;
+}
+.bn-bt{
+    color: white;
+    background-color: #006A50;
+    width: 270px;
+    height: 56px;
+    text-align: center;
+    justify-content: C;
+    border-radius: 8px;
+}
+.bn-bt p{
+    padding-top: 18px;
+}
+.banner-img{
+    padding: 80px 59px 80px 64px;
+}
