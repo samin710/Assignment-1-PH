@@ -347,7 +347,7 @@
 /* newsletter section*/
 .newsletter-container{
     width: 1280px;
-        height: 457px;
+        height: 410px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 80px;
@@ -369,11 +369,14 @@
         margin-left: 341px;
         margin-bottom: 24px;
 }
+.newsletter-field{
+    display: flex;
+}
 .newsletter-field-box{
     width: 690px;
     height: 55px;
     background-color: #FFFF;
-    margin-left: 265px;
+    margin-left: 245px;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
 }
@@ -385,4 +388,32 @@
     opacity: .3;
     margin-left: 60px;
     padding-top : 18px;
+}
+.newsletter-bt {
+    width: 145px;
+    height: 55px;
+
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #006A50;
+    /* padding: 13px 26px; */
+}
+
+.newsletter-bt-txt {
+    color: #FFFF;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.promise{
+    width: 520px;
+    height: 18px;
+    text-align: center;
+    /* border: 1px solid black; */
+    margin-top: 24px;
+    margin-left: 358px;
+    color: #0E0E0E;
+    opacity: .7;
 }
